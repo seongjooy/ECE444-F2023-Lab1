@@ -12,3 +12,5 @@ Activity 2: Exercise 2-1 and 2-2 <br>
 
 Activity 3: Bootstrap template and datetime <br>
 <img width="536" alt="Screenshot 2023-09-19 at 5 52 23 PM" src="https://github.com/seongjooy/ECE444-F2023-Lab1/assets/66128818/5154fda2-97a7-48d9-9fc3-09db7e73e263">
+<br>Commit message:<br>
+<img width="730" alt="Screenshot 2023-09-19 at 5 54 07 PM" src="https://github.com/seongjooy/ECE444-F2023-Lab1/assets/66128818/c2290022-cd5c-4895-b65c-e8d2db533d87">
