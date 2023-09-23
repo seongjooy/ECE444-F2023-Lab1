@@ -1,5 +1,6 @@
 {% extends "bootstrap/base.html" %} {% block title %}Flasky{% endblock %} {%
 block navbar %}
+
 <div class="navbar navbar-inverse" role="navigation">
   <div class="container">
     <div class="navbar-header">
@@ -23,7 +24,12 @@ block navbar %}
     </div>
   </div>
 </div>
-{% endblock %} {% block content %}
+{% endblock %} {% block content %} {% for message in get_flashed_messages() %}
+<div class="alert alert-warning">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  {{ message }}
+</div>
+{% endfor %}
 <div class="container">{% block page_content %}{% endblock %}</div>
 {% endblock %} {% block scripts %} {{ super() }} {{ moment.include_moment() }}
 {% endblock %}
